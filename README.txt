@@ -10,6 +10,6 @@ Use i2cdetect to confirm x68 is correctly shown.
 
 Python setup:
 
-import MPUdriver as mpu
-mpu = mpu()  #=> lol.
-mpu()        #=>
+from MPUdriver import MPUDriver as mpu
+mpu = mpu()
+print(mpu())
