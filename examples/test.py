@@ -1,6 +1,6 @@
-import MPUdriver as mpu
+from MPUdriver import MPUDriver as mpu
 mpu = mpu()
-mpu()
+mpu.self_test()
 
 # while True:
 #   mpu()
@@ -11,5 +11,5 @@ mpu()
 #   mpu()
 #   fin = timer() - start
 #   print(f'looptime: {fin:.2f}s')
-
-print('this has worked.')
+#   print(mpu())
+#   break
